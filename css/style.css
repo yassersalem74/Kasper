@@ -223,7 +223,7 @@ header nav .form i{
 .landing{
     min-height: 100vh;
     background-color: #1f2021;
-    background-image: url(/images/background.jpg); 
+    /* background-image: url(images/background.jpg);  */
     background-size: cover;
 }
 
@@ -370,7 +370,7 @@ color: #777;
     padding-bottom:var(--section-padding);
     height: 600px;
     position: relative;
-    background-image: url(/images/blue-background-4863452_1280.jpg);
+    /* background-image: url(/images/blue-background-4863452_1280.jpg); */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -517,7 +517,10 @@ color: var(--main-color);
     text-transform: uppercase;
 }
 
-
+.portfolio   a:hover{
+   transition: 1s;
+   background-color: var(--transparent-color);
+}
 /* end portfolio  */
 
 
@@ -610,7 +613,7 @@ text-transform: uppercase;
    padding-top:var(--section-padding);
    padding-bottom:var(--section-padding);
    text-align: center;
-   background-image: url(/images/6.jpg) ;
+   /* background-image: url(/images/6.jpg) ; */
    background-size: cover;
    position: relative;
 
@@ -817,7 +820,7 @@ position: relative;
 .quote{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/4.jpg);
+    /* background-image: url(/images/4.jpg); */
     background-size: cover;
     position: relative;
     text-align: center;
@@ -963,7 +966,7 @@ font-size: 20px;
 .subscribe{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/5.jpg);
+    /* background-image: url(/images/5.jpg); */
     background-size: cover;
     position: relative;
     color: white;
@@ -1166,7 +1169,7 @@ line-height: 2;
 .footer{
     padding-top:calc(var(--section-padding) /2);
     padding-bottom:calc(var(--section-padding) / 2);
-    background-image: url(/images/3.jpg);
+    /* background-image: url(/images/3.jpg); */
     background-size: cover;
     position: relative;
     color: white;
